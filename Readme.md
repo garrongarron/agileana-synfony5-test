@@ -20,4 +20,6 @@ symfony console make:subscriber
 
 Symfony\Component\Security\Http\Event\LoginSuccessEvent
 
-composer require symfony/mailer
+composer require symfony/
+
+symfony console make:controller Swapi
