@@ -15,3 +15,9 @@ composer require symfonycasts/verify-email-bundle
 composer require form validator twig-bundle
 
 php bin/console make:registration-form
+
+symfony console make:subscriber
+
+Symfony\Component\Security\Http\Event\LoginSuccessEvent
+
+composer require symfony/mailer
