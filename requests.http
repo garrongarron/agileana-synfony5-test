@@ -1,0 +1,7 @@
+POST http://localhost:8080/api
+content-type: application/json
+Cookie: PHPSESSID=3decf652b77dca284fdba82fd2c68b4f
+
+{
+    "url": "https://swapi.dev/api/people/1/"
+}

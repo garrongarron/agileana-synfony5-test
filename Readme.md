@@ -23,3 +23,9 @@ Symfony\Component\Security\Http\Event\LoginSuccessEvent
 composer require symfony/
 
 symfony console make:controller Swapi
+
+bin/console make:entity RestProxi
+
+php bin/console make:migration
+
+php bin/console doctrine:migrations:migrate
