@@ -12,6 +12,7 @@ class LoginSubscriber implements EventSubscriberInterface
 {
     public function onLoginSuccessEvent(LoginSuccessEvent $event)
     {
+        /*
         $email = (new Email())
             ->from('support@example.com')
             ->to($event->getUser()->getEmail())
@@ -23,6 +24,7 @@ class LoginSubscriber implements EventSubscriberInterface
 
         $mailer = new Mailer($transport); 
         $mailer->send($email);
+        */
     }
 
     public static function getSubscribedEvents()
