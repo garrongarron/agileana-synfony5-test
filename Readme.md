@@ -29,3 +29,9 @@ bin/console make:entity RestProxi
 php bin/console make:migration
 
 php bin/console doctrine:migrations:migrate
+
+heroku addons:create heroku-postgresql:hobby-dev
+
+heroku config:set APP_ENV=prod
+
+php bin/console doctrine:mirgations:migrate
