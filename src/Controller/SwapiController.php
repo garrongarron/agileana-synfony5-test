@@ -43,6 +43,6 @@ class SwapiController extends AbstractController
         } else {
             $data = $databaseAnswer->getResponse();
         }
-        return new JsonResponse($data, Response::HTTP_OK);
+        return new JsonResponse(json_decode($data), Response::HTTP_OK);
     }
 }
