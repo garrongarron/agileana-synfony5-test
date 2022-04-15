@@ -1,2 +1,2 @@
-const domain = 'http://localhost:8080'
+const domain = location.origin;//'http://localhost:8080'
 export default domain
